@@ -1,1 +1,3 @@
 # Car-Price-Prediction
+First, the required Python libraries were imported, and the car data.csv dataset was loaded. The dataset was explored by checking its structure, missing values, duplicate records, and summary statistics. Categorical features were encoded into numerical values, and a new feature called Car Age was created from the manufacturing year.
+After preprocessing, the dataset was split into training and testing sets. A Random Forest Regressor was trained to predict the selling price of cars. The model was evaluated using MAE, RMSE, and R² Score, and its performance was visualized using an Actual vs. Predicted Price plot and a Feature Importance chart. This project demonstrates how machine learning can accurately estimate used car prices.
